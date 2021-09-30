@@ -7,7 +7,7 @@ from fitparse.records import DefinitionMessage
 if len(sys.argv) >= 2:
     fileToParse = sys.argv[1]
 else:
-    print("Usage: python3 read_fit_file path/to/file.fit [fit_msg_type] [msg_display_number]")
+    print("Usage: python3 read_fit_file.py path/to/file.fit [fit_msg_type] [msg_display_number]")
     print("\tThe fit_msg_type correspond to fit message types in the garmin fit profile.")
     print("\t\tIt's optional but if filled it will show you only the desired msg type e.g. session")
     print("\tThe msg_display_number will show you the n firsts number of messages.")
